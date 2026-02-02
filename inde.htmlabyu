@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flower Shop</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f0;
+            background-image: url("https://i.imgur.com/8QfZQZC.png");
+            background-repeat: repeat;
+        }
+
+        .box {
+            width: 300px;
+            background-color: white;
+            padding: 20px;
+            margin: 100px auto;
+            border: 2px solid #ff99cc;
+            border-radius: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #cc0066;
+        }
+
+        label {
+            color: #333;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #ff66b2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #cc0066;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <h2>Flower Shop Sign In</h2>
+
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name">
+
+        <label>Address:</label>
+        <input type="text" placeholder="Enter your address">
+
+        <label>Password:</label>
+        <input type="password" placeholder="Enter password">
+
+        <button>Sign In</button>
+    </div>
+
+</body>
+</html>
